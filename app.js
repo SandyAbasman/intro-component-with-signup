@@ -60,6 +60,8 @@ form.addEventListener("submit", (e) => {
   if (passwordVal === "") {
     password.classList.add("error");
     passwordErrorText.style.visibility = "visible";
+    showPassword.style.visibility = "hidden";
+    hidePassword.style.visibility = "hidden";
   } else {
     password.classList.remove("error");
     passwordErrorText.style.visibility = "hidden";
