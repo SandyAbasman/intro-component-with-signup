@@ -11,7 +11,7 @@ const emailErrorText = document.getElementById("email-error-text");
 const showPassword = document.getElementById("show-password");
 const hidePassword = document.getElementById("hidepassword");
 
-console.log(form);
+// console.log(form);
 
 // console.log(firstName, lastName, email, password);
 
